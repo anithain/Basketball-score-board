@@ -1,0 +1,55 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="https://www.fontspace.com/cursed-timer-ulil-font-f29411">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            
+                <div class="sub-container1">
+                    <h3>HOME</h3>
+                   <div class="home-score first">
+                           <div class="home-points-text left">
+                               <p id="home">0</p>   
+                       </div>
+                   </div>
+                   <div class="add-points-btns-home">
+                       <div class="rectangle">
+                       <button id="plus-one-point" onclick="addone()">+1</button>
+                       </div>
+                       <div class="rectangle two">
+                           <button id="plus-two-point" onclick="addtwo()">+2</button>
+                       </div>
+                       <div class="rectangle three">
+                          <button id="plus-three-point" onclick="addthree()">+3</button> 
+                       </div>
+                   </div>
+                </div>
+                <div class="sub-container2">
+                    <h3>GUEST</h3>
+                    <div class="home-score second">
+                           <div class="home-points-text right">
+                               <p id="guest">0</p> 
+                       </div>
+                   </div>
+                    <div class="add-points-btns-home">
+                       <div class="rectangle">
+                       <button id="plus-one-point" onclick="addOne()">+1</button>
+                       </div>
+                       <div class="rectangle two">
+                           <button id="plus-two-point" onclick="addTwo()">+2</button>
+                       </div>
+                       <div class="rectangle three">
+                          <button id="plus-three-point" onclick="addThree()">+3</button> 
+                       </div>
+                   </div>
+                </div>
+                <div>
+            <button id="newMatch" onclick="newmatch()">New Match</button>
+            </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
